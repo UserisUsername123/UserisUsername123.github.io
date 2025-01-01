@@ -1,0 +1,14 @@
+button {
+        
+            transform: translate(360%, 660%);
+            padding: 20px 40px;
+            background-color:bisque;
+            color:rgb(201, 196, 196);
+            font-weight: 700;
+            border: solid 3px #fff;
+            border-radius: 12px;
+            font-size: 16px
+            cursor: pointer;
+            transition: all 0.3 ease-in-out;
+            
+        }

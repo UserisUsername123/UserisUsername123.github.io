@@ -1,57 +1,66 @@
 body,
-html {
-  width: 120%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
+html
+
+ {
   
-  
-    background: url(header.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+    width: 100%;
+    height: 100%;
+        background: url(header.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+ 
+
+        h1 {
+            white-space: nowrap; <!-- Fixes clunked together text -->
+            text-overflow: ellipsis;
+
+transform: translate(200%, 300%); 
+font-family: 'sixtyfour';
+font-size: 2em;
+width: 200px;
+height: 50px;
+color:#fefefe;
+    
+
+        }
+    }
+    hr {
+       display:flex;
+       transform: translate(44%, 0%);
+       
+       margin-bottom: 7px;
+       color: #F05F44;
+       border: 3px solid #F05F44;
+       width: 200%;
+       height: 0%;
+       opacity: 100;  
+   }
+
+        button {
+        
+            transform: translate(360%, 660%);
+            padding: 20px 40px;
+            background-color:rgb(205, 37, 157);
+            color:rgb(239, 232, 232);
+            font-weight: 700;
+            border: solid 3px #fff;
+            border-radius: 12px;
+            font-size: 16px
+            cursor: pointer;
+            transition: all 0.3 ease-in-out;
+            
+        }
+
+        button:hover {
+            background-color:antiquewhite;
+
+        }
+
+        
+    
+    
 
 
-
-
-h1 {
-  font-size: 3rem;
-  color: #e2dbdb;
-  
-}
-  
-hr {
-  height: 9rem;
-  border-color: #F05F44;
-  border-width: 3px;
-  max-width: 65px;
-}
-
-  
-.buffer {
-  height: 7rem;
-}
-
-
-
-.btn {
-  font-weight: 700;
-  border-radius:300px;
-  text-transform: uppercase;
-}
-
-
-.btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44;
-}
-
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-}
-
-
+        
